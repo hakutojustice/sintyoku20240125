@@ -1,0 +1,22 @@
+﻿  Engine.cpp
+  Graphics.cpp
+C:\Users\fko2347033\Desktop\gameproject\FevSubmissionGame\ウディタ2_32x32mapchip_20210215\MapChipDrawSample\MapChipDrawSample\Src\Engine\Graphics.cpp(25,29): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+C:\Users\fko2347033\Desktop\gameproject\FevSubmissionGame\ウディタ2_32x32mapchip_20210215\MapChipDrawSample\MapChipDrawSample\Src\Engine\Graphics.cpp(25,19): error C2146: 構文エラー: ';' が、識別子 'g_FontList' の前に必要です。
+C:\Users\fko2347033\Desktop\gameproject\FevSubmissionGame\ウディタ2_32x32mapchip_20210215\MapChipDrawSample\MapChipDrawSample\Src\Engine\Graphics.cpp(25,40): error C2337: 'FontSizeMax': 属性が見つかりません。
+C:\Users\fko2347033\Desktop\gameproject\FevSubmissionGame\ウディタ2_32x32mapchip_20210215\MapChipDrawSample\MapChipDrawSample\Src\Engine\Graphics.cpp(25,30): error C2337: 'FontSizeMax': 属性が見つかりません。
+C:\Users\fko2347033\Desktop\gameproject\FevSubmissionGame\ウディタ2_32x32mapchip_20210215\MapChipDrawSample\MapChipDrawSample\Src\Engine\Graphics.cpp(75,3): error C2065: 'g_FontList': 定義されていない識別子です。
+C:\Users\fko2347033\Desktop\gameproject\FevSubmissionGame\ウディタ2_32x32mapchip_20210215\MapChipDrawSample\MapChipDrawSample\Src\Engine\Graphics.cpp(173,2): error C2065: 'g_FontList': 定義されていない識別子です。
+C:\Users\fko2347033\Desktop\gameproject\FevSubmissionGame\ウディタ2_32x32mapchip_20210215\MapChipDrawSample\MapChipDrawSample\Src\Engine\Graphics.cpp(186,2): error C2065: 'D3DXIMAGE_INFO': 定義されていない識別子です。
+C:\Users\fko2347033\Desktop\gameproject\FevSubmissionGame\ウディタ2_32x32mapchip_20210215\MapChipDrawSample\MapChipDrawSample\Src\Engine\Graphics.cpp(186,17): error C2146: 構文エラー: ';' が、識別子 'info' の前に必要です。
+C:\Users\fko2347033\Desktop\gameproject\FevSubmissionGame\ウディタ2_32x32mapchip_20210215\MapChipDrawSample\MapChipDrawSample\Src\Engine\Graphics.cpp(186,17): error C2065: 'info': 定義されていない識別子です。
+C:\Users\fko2347033\Desktop\gameproject\FevSubmissionGame\ウディタ2_32x32mapchip_20210215\MapChipDrawSample\MapChipDrawSample\Src\Engine\Graphics.cpp(189,40): error C2065: 'info': 定義されていない識別子です。
+C:\Users\fko2347033\Desktop\gameproject\FevSubmissionGame\ウディタ2_32x32mapchip_20210215\MapChipDrawSample\MapChipDrawSample\Src\Engine\Graphics.cpp(189,2): error C3861: 'D3DXGetImageInfoFromFileA': 識別子が見つかりませんでした
+C:\Users\fko2347033\Desktop\gameproject\FevSubmissionGame\ウディタ2_32x32mapchip_20210215\MapChipDrawSample\MapChipDrawSample\Src\Engine\Graphics.cpp(191,6): error C2065: 'D3DX_DEFAULT': 定義されていない識別子です。
+C:\Users\fko2347033\Desktop\gameproject\FevSubmissionGame\ウディタ2_32x32mapchip_20210215\MapChipDrawSample\MapChipDrawSample\Src\Engine\Graphics.cpp(191,6): error C3861: 'D3DXCreateTextureFromFileExA': 識別子が見つかりませんでした
+C:\Users\fko2347033\Desktop\gameproject\FevSubmissionGame\ウディタ2_32x32mapchip_20210215\MapChipDrawSample\MapChipDrawSample\Src\Engine\Graphics.cpp(301,7): error C2065: 'g_FontList': 定義されていない識別子です。
+C:\Users\fko2347033\Desktop\gameproject\FevSubmissionGame\ウディタ2_32x32mapchip_20210215\MapChipDrawSample\MapChipDrawSample\Src\Engine\Graphics.cpp(301,7): error C3861: 'D3DXCreateFont': 識別子が見つかりませんでした
+  Input.cpp
+  Texture.cpp
+  Window.cpp
+  Main.cpp
+  コードを生成中...
