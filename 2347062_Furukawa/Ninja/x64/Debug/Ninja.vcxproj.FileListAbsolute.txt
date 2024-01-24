@@ -1,0 +1,4 @@
+C:\Users\fko2347062\source\repos\Ninja\x64\Debug\Ninja.exe
+C:\Users\fko2347062\Desktop\github\Study\Ninja\x64\Debug\Ninja.exe
+C:\Users\fko2347062\Documents\GitHub\Study\Ninja\x64\Debug\Ninja.exe
+C:\Users\PCuser\Documents\GitHub\Study\Ninja\x64\Debug\Ninja.exe

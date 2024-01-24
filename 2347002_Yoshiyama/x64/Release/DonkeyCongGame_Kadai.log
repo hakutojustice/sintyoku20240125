@@ -1,0 +1,63 @@
+﻿  Bg.cpp
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  Enemy.cpp
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Enemy.cpp(29,32): warning C4244: '初期化中': 'float' から 'const int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Enemy.cpp(30,33): warning C4244: '初期化中': 'float' から 'const int' への変換です。データが失われる可能性があります。
+  Floor.cpp
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(58,58): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(58,27): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(63,57): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(63,26): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(69,55): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(69,26): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(74,56): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(74,26): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(86,50): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(86,26): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(87,49): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(87,26): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(92,49): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(92,26): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(97,49): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(97,26): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(102,49): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(102,26): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(107,49): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(107,26): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(108,49): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(108,26): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(113,49): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(113,26): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(118,49): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(118,26): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(128,49): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(128,26): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(133,49): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(133,26): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(138,49): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Floor.cpp(138,26): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  Gamepart.cpp
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  main.cpp
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  Pad.cpp
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  Player.cpp
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Player.cpp(21,32): warning C4244: '初期化中': 'float' から 'const int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\Player.cpp(22,33): warning C4244: '初期化中': 'float' から 'const int' への変換です。データが失われる可能性があります。
+  Rect.cpp
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  SceneMain.cpp
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\SceneMain.cpp(71,2): warning C4150: 'Bg' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\SceneMain.h(12,8): message : 'Bg' の宣言を確認してください
+  SceneManager.cpp
+  Vec2.cpp
+  コード生成しています。
+  Previous IPDB not found, fall back to full compilation.
+  All 411 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  DonkeyCongGame_Kadai.vcxproj -> C:\Users\fko2347002\Documents\GitHub\schoolStudy2\MyPrograming\DonkeyCongGame_Kadai\x64\Release\DonkeyCongGame_Kadai.exe
