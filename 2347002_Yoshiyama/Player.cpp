@@ -38,7 +38,7 @@ namespace
 //コンストラクタ
 Player::Player() :
 	m_handle(-1),
-	m_pos(400, 500),//本来何ら400、685
+	m_pos(400, 685),//本来何ら400、685
 	m_dir(kDirDown),
 	m_walkAnimeFrame(kAnimeFrameNum),
 	m_damageFrame(0),
@@ -61,8 +61,8 @@ void Player::Init()
 {
 	//当たり判定の更新
 	m_colRect.SetCenter(m_pos.x, m_pos.y, kGraphWidth, kGraphHeight);
-	m_pos.x = 400;
-	m_pos.y = 685;
+	//m_pos.x = 400;
+	//m_pos.y = 685;
 
 }
 //更新処理
@@ -175,7 +175,7 @@ void Player::Update()
 					}
 				}
 			}
-			else if (m_pos.y > 490)
+			else if (m_pos.y > 490 && m_pos.y < 550)//490
 			{
 				//二段目
 				for (int x = 0; x <= Game::kScreenWidth - 100; x++)
@@ -187,7 +187,7 @@ void Player::Update()
 					}
 				}
 			}
-			else if (m_pos.y >= 360)
+			else if (m_pos.y >= 360 && m_pos.y <= 420)
 			{
 				//三段目
 				for (int x = 160; x <= Game::kScreenWidth; x++)
@@ -199,7 +199,7 @@ void Player::Update()
 					}
 				}
 			}
-			else if (m_pos.y >= 235)
+			else if (m_pos.y >= 200 && m_pos.y <= 260)
 			{
 				//四段目
 				for (int x = 0; x <= Game::kScreenWidth - 100; x++)
@@ -211,7 +211,7 @@ void Player::Update()
 					}
 				}
 			}
-			else if (m_pos.y >= 100)
+			else if (m_pos.y >= 100 && m_pos.y <= 160)
 			{
 				//ゴール地点
 				for (int x = 520; x <= 640; x++)
@@ -250,7 +250,7 @@ void Player::Update()
 		// 原因③　その他
 
 		//一段目一番左
-		//pos.yが660よりも大きい値の時
+		//pos.yが600よりも大きいく、662よりも小さくXが550よりも小さく、値の時
 		if (m_pos.y >= 600 && m_pos.x <= 550 && m_pos.y <=662)
 		{
 			//for文を回す　15回回すことでよこの範囲を決定する
@@ -258,36 +258,34 @@ void Player::Update()
 				//if (static_cast<int>(m_pos.x) >= 450 && static_cast<int>(m_pos.x) <= 465)
 			{
 				//梯子の上限
+				//m_pos.yが620よりも大きかったら
 				if (m_pos.y >= 620)
-					//for文を回す　30買いまわすことでyの移動量を決定する
-					//for (int y = 680; y <= 740; y++)
 				{
-					m_isToFloorFlag = true;
 					//上記の回したforのpos.x内の適した値があったらはいる
 					if (static_cast<int>(m_pos.x) == x)
 					{
 						m_pos.y -= 5.0f;
+					m_isToFloorFlag = true;
 					}
 				}
 
 			}
 		}
 		//一段目一番右
-		//pos.yが620より大きい値の時
+		//pos.yが520より大きいく、m_pos.xが800よりも大きい値の時
 		else if (m_pos.y >= 520 && m_pos.x >= 800)
 		{
 			//for文を回す　15回転することで横の範囲を決定する
 			for (int x = 1000; x <= 1015; x++)
 			{
-				//for文を回す　50回転することでyの移動量を決定する
-				//for (int y = 660; y <= 760; y++)
+				//もし、m_pos.yが542よりも大きい場合
 				if (m_pos.y >= 542)
 				{
-					m_isToFloorFlag = true;
 					//上記の回したforのpos.x内の適した値があったらはいる
 					if (static_cast<int>(m_pos.x) == x)
 					{
 						m_pos.y -= 5.0f ;
+					m_isToFloorFlag = true;
 					}
 				}
 			}
@@ -295,35 +293,34 @@ void Player::Update()
 		
 
 		//二段目一番右
-		//poy.yが520以下かつ500より大きい値の時
-		if (m_pos.y <= 520 && m_pos.y >= 420)
+		//poy.yが520以下かつ402より大きい値の時
+		if (m_pos.y <= 520 && m_pos.y >= 402 && m_pos.x >= 480)
 		{
 			//for文を回す　15回転することで横の範囲を決定する
 			for (int x = 530; x <= 545; x++)
 			{
-				//for文を回す　75回転することでyの移動量を決定する
-				//for (int y = 650; y <= 720; y++)
-				if(m_pos.y >= 480)
+				//m_pos.yが402よりも大きい場合
+				if(m_pos.y >= 402)
 				{
-						m_isToFloorFlag = true;
 					//上記の回したforのpos.x内の適した値があったらはいる
 					if (static_cast<int>(m_pos.x) == x)
 					{
 						m_pos.y--;
+						m_isToFloorFlag = true;
 
 					}
 				}
 			}
 		}
 		//二段目一番左
-		//pos.yが400以下かつ330より大きい値の時
-		else if (m_pos.y <= 510 && m_pos.y >= 480)
+		//pos.yが510以下かつ410より大きい値の時
+		else if (m_pos.y <= 510 && m_pos.y >= 410 && m_pos.x <= 480)
 		{
 			//for文を回す　15回転することでyの移動量を決定する
 			for (int x = 350; x <= 365; x++)
 			{
-				//for文を回す　60回転することでyの移動量を決定する
-				for (int y = 665; y <= 725; y++)
+				//m_pos.yが402よりも大きい場合
+				if(m_pos.y >= 402)
 				{
 					//上記の回したforのpos.x内の適した値があったらはいる
 					if (static_cast<int>(m_pos.x) == x)
@@ -337,13 +334,13 @@ void Player::Update()
 		//三段目一番左
 		//下のほうのみ反応させるプログラムで書いている
 		//pos.yが320以下かつ220より大きい値の時
-		else if (m_pos.y <= 430 && m_pos.y >= 400 && m_pos.x <= 600)
+		if (m_pos.y <= 405 && m_pos.y >= 350 && m_pos.x <= 600)
 		{
 			//for文を回す　15回転することでyの移動量を決定する
 			for (int x = 500; x <= 515; x++)
 			{
-				//for文を回す　30回転することでyの移動量を決定する
-				for (int y = 380; y <= 410; y++)
+				//m_pos.yが350よりも大きい場合
+				if(m_pos.y >= 350)
 				{
 					//上記の回したforのpos.x内の適した値があったら入る
 					if (static_cast<int>(m_pos.x) == x)
@@ -355,11 +352,12 @@ void Player::Update()
 			}
 		}
 		//三段目真ん中
-		else if (m_pos.y <= 400 && m_pos.y >= 370 && m_pos.x <= 800)
+		else if (m_pos.y <= 395 && m_pos.y >= 245 && m_pos.x <= 800)
 		{
 			for (int x = 750; x <= 765; x++)
 			{
-				for (int y = 280; y <= 365; y++)
+				//m_pos.yが247よりも大きい場合
+				if(m_pos.y >= 247)
 				{
 					if (static_cast<int>(m_pos.x) == x)
 					{
@@ -370,11 +368,11 @@ void Player::Update()
 			}
 		}
 		//三段目一番右
-		else if (m_pos.y <= 400 && m_pos.y >= 360)
+		else if (m_pos.y <= 380 && m_pos.y >= 260)
 		{
 			for (int x = 1000; x <= 1015; x++)
 			{
-				for (int y = 270; y <= 335; y++)
+				if(m_pos.y >= 260)
 				{
 					if (static_cast<int>(m_pos.x) == x)
 					{
@@ -385,11 +383,11 @@ void Player::Update()
 			}
 		}
 		//ゴール地点
-		else if (m_pos.y <= 240 && m_pos.y >= 190)
+		else if (m_pos.y <= 240 && m_pos.y >= 115)
 		{
 			for (int x = 560; x <= 575; x++)
 			{
-				for (int y = 110; y <= 190; y++)
+				if(m_pos.y >= 115)
 				{
 					if (static_cast<int>(m_pos.x) == x)
 					{
@@ -411,7 +409,7 @@ void Player::Update()
 		//pos.yの一番下の値と一番上の値の上限を設定して
 		//その範囲内では移動できるようにする
 
-		//一段目一番左 --放置--
+		//一段目一番左
 		if (m_pos.y >= 610 && m_pos.y <= 660)
 		{
 			//for文を回す　15回回すことで横の範囲を決定する。
@@ -447,6 +445,25 @@ void Player::Update()
 					if (static_cast<int>(m_pos.x) == x)
 					{
 						m_pos.y++;
+					}
+				}
+			}
+		}
+		else
+		{
+			m_isToFloorFlag = false;
+		}
+		if (m_pos.y >= 420 && m_pos.y <= 520)
+		{
+			//for文を回す　15買いまわすことで横の範囲を決定する
+			for (int x = 530; x <= 545; x++)
+			{
+				if (m_pos.y >= 508)
+				{
+					//上記の回したforのpos.x内の適した値があったら入る
+					if (static_cast<int>(m_pos.x) == x)
+					{
+						m_pos.x;
 					}
 				}
 			}
