@@ -15,7 +15,6 @@
 
 SceneMain::SceneMain() :
 	m_isSceneEnd(false),
-	isFinishStage1(false),
 	m_fadeAlpha(255)		// 不透明で初期化
 {
 	// ゲーム画面描画先の生成
@@ -112,7 +111,6 @@ void SceneMain::Init()
 	assert(m_pPlayer);	// m_pPlayer == nullptr	の場合止まる
 
 	m_isSceneEnd = false;
-	isFinishStage1 = false;
 
 	m_pPlayer->Init();
 	m_pBack->Init();
@@ -132,10 +130,7 @@ void SceneMain::Update()
 		// Aボタンが押されたらゲームオーバー画面へ遷移する
 		if (Pad::IsTrigger(PAD_INPUT_4))	  // Aボタンが押された
 		{
-
-			isFinishStage1 = true;
 			m_isSceneEnd = true;
-			
 
 			// フェードアウト
 			m_fadeAlpha += 8;

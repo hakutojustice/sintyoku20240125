@@ -256,18 +256,12 @@ void SceneManager::Update()
 		// ゲームオーバー
 	case kSceneGameOver:
 		m_pGameOver->End();
-		if (m_pGameOver->IsSeneRetry()) // リトライ
-		{
-			// TODO:プレイしていたステージにもどれるようにする
-			m_runScene = kSceneMain;
-			m_pMain->Init();
-		}
-		else if (m_pGameOver->IsSceneSelect())	// ステージ選択
+		if (m_pGameOver->IsSceneSelect())
 		{
 			m_runScene = kSceneStageSelect;
 			m_pStageSelect->Init();
 		}
-		else if (m_pGameOver->IsSceneTitle())	// タイトル
+		else if (m_pGameOver->IsSceneTitle())
 		{
 			m_runScene = kSceneTitle;
 			m_pTitle->Init();

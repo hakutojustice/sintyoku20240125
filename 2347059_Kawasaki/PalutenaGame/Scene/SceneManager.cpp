@@ -58,32 +58,24 @@ void SceneManager::Update()
 		{
 			m_pTitle->End();
 
-			if (m_pTitle->ToExplanation()) {		// 説明画面へ行く
-				break;
-			}
-			else if(m_pTitle->ToStage())
-				m_runScene = kSceneStageSelect;		// ステージセレクト画面へ行く
+			m_runScene = kSceneStageSelect;
 			m_pStageSelect->Init();
 		}
 		break;
 	case kSceneStageSelect:
 		if (m_pStageSelect->IsSceneEnd())
 		{
-			m_pStageSelect->End();
-
-			if (m_pStageSelect->ToStage1()) {
-				m_runScene = kSceneKindMain;	// 次のフレーム以降、実行したいシーン
-				m_pMain->Init();		// 変更先シーンの初期化
-			}
-			else if (m_pStageSelect->ToStage2())
-			{
-				break;
-			}
-			else if(m_pStageSelect->ToBackTitke())
-			{
-				m_runScene = kSceneKindTitle;	// 次のフレーム以降、実行したいシーン
-				m_pTitle->Init();
-			}
+			m_runScene = kSceneKindMain;	// 次のフレーム以降、実行したいシーン
+			m_pMain->Init();		// 変更先シーンの初期化
+		}
+		else if (m_pStageSelect->IsSceneEnd2()) {
+			//	m_runScene = kSceneKindMain;	// 次のフレーム以降、実行したいシーン
+			//	m_pMain->Init();		// 変更先シーンの初期化
+			//}
+		}
+		else if (m_pStageSelect->IsSceneEnd3()) {
+			m_runScene = kSceneKindTitle;	// 次のフレーム以降、実行したいシーン
+			m_pTitle->Init();
 		}
 		break;
 	case kSceneKindMain:
@@ -103,17 +95,8 @@ void SceneManager::Update()
 			// シーンを切り替える
 			m_pGameOver->End();	// 実行していたシーンの終了処理
 
-			if (m_pGameOver->AgainStage1())
-			{
-				m_runScene = kSceneKindMain;	// 次のフレーム以降、実行したいシーン
-				m_pMain->Init();
-			}
-			//else if(m_pMainTwo->JustStage2())
-			//{ }
-			else {
-				m_runScene = kSceneKindTitle;	// 次のフレーム以降、実行したいシーン
-				m_pTitle->Init();
-			}
+			m_runScene = kSceneKindTitle;	// 次のフレーム以降、実行したいシーン
+			m_pTitle->Init();
 		}
 		break;
 	default:
