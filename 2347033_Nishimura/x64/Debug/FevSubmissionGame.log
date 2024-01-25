@@ -1,0 +1,19 @@
+﻿  Enemy.cpp
+C:\_DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Users\fko2347033\Desktop\gameproject\ゲーム\FevSubmissionGame\Enemy.cpp(38,24): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347033\Desktop\gameproject\ゲーム\FevSubmissionGame\Enemy.cpp(38,16): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  Main.cpp
+C:\_DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  Character.cpp
+C:\_DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Users\fko2347033\Desktop\gameproject\ゲーム\FevSubmissionGame\Character.cpp(78,23): warning C4244: '+=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347033\Desktop\gameproject\ゲーム\FevSubmissionGame\Character.cpp(79,18): warning C4553: '==': 式の結果が使用されていません。'=' を意図していますか?
+C:\Users\fko2347033\Desktop\gameproject\ゲーム\FevSubmissionGame\Character.cpp(90,26): warning C4553: '==': 式の結果が使用されていません。'=' を意図していますか?
+  SceneManager.cpp
+C:\_DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  Text.cpp
+C:\_DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  TitleScene.cpp
+C:\_DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  コードを生成中...
+  FevSubmissionGame.vcxproj -> C:\Users\fko2347033\Desktop\gameproject\ゲーム\FevSubmissionGame\x64\Debug\FevSubmissionGame.exe
