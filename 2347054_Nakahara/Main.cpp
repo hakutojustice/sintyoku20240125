@@ -9,16 +9,10 @@ int EnemyGraph;
 int EnemyW, EnemyH;
 int PlayerH, PlayerW;
 
-
 VECTOR EnemyPos;
 
 XINPUT_STATE input;
 
-void BackScroll(const int t_areaX, const int tD_graph, const int t_winWidth, const int t_winHeight)
-{
-	DrawRectGraph(0, 0, t_areaX, 0, t_winWidth, t_winHeight, tD_graph, false);
-	DrawRectGraph(t_winWidth - t_areaX, 0, 0, 0, t_areaX, t_winHeight, tD_graph, false);
-}
 
 // プログラムは WinMain から始まります
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
@@ -27,9 +21,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	int phase = 0;
 	int StartTime;
 	int Time;
-	int BackGraph = LoadGraph("image/back.png");
-	int areaX = 0;
-	int speed = 3;
 	unsigned int Cr;
 
 	// 一部の関数はDxLib_Init()の前に実行する必要がある
@@ -50,10 +41,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 	// グラフィック『player.png』をメモリにロード
 	PlayerGraph = LoadGraph("image/player.png");
-	// グラフィック『enemy.png』をメモリにロード
+	// グラフィック『player.png』をメモリにロード
 	EnemyGraph = LoadGraph("image/enemy.png");
-	// グラフィック『背景.png』をメモリにロード
-	BackGraph = LoadGraph("image/back.png");
 
 	// キャラクターの初期データをセット
 	PlayerX = 60;
@@ -83,13 +72,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		// 描画を行う前に画面をクリアする
 		ClearDrawScreen();	
 
-		BackScroll(areaX, BackGraph, 1280, 720);
-
-			areaX += speed;
-			if (areaX > 1280)
-			{
-				areaX = 0;
-			}
 	
 		// このフレームの開始時刻を覚えておく
 		LONGLONG start = GetNowHiPerformanceCount();

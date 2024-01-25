@@ -6,8 +6,8 @@
 namespace
 {
 	// 文字の表示位置
-	constexpr int kChirPosX = kScreenWidth * 0.38;
-	constexpr int kChirPosY = kScreenHeight * 0.58;
+	constexpr int kChirPosX = kScreenWidth * 0.4;
+	constexpr int kChirPosY = kScreenHeight * 0.65;
 
 	// 文字の表示幅
 	constexpr int kCharInterval = 90;
@@ -23,21 +23,15 @@ namespace
 	constexpr int kSelectSizeX =460;
 	constexpr int kSelectSizeY = 75;
 
-	// タイトルロゴ表示位置
-	constexpr int kLogoPosX = kScreenWidth * 0.13;
-	constexpr int kLogoPosY = -220;
-
 	// タイトルロゴサイズ
-	constexpr int kLogoSizeX = 1450;
-	constexpr int kLogoSizeY = 1100;
+	constexpr int kLogoSizeX = 1200;
+	constexpr int kLogoSizeY = 1000;
 }
 
 SceneTitle::SceneTitle() :
-	x(kLogoPosX),
-	y(kLogoPosY),
+	x(kScreenWidth * 0.2),
+	y(-180),
 	m_isSceneEnd(false),
-	isToExplanation(false),
-	isToSelect(false),
 	m_select(kSelectGameStart),
 	m_selectPos(kSelectPosX, kSelectPosY+ kSelectMoveY),
 	m_fadeAlpha(255)
@@ -51,8 +45,6 @@ void SceneTitle::Init()
 
 	m_select= kSelectGameStart;
 	m_isSceneEnd = false;
-	isToExplanation = false;
-	isToSelect = false;
 	m_selectPos.x = kSelectPosX;
 	m_selectPos.y = kSelectPosY+ kSelectMoveY;
 }
@@ -90,12 +82,9 @@ void SceneTitle::Update()
 		switch (m_select)
 		{
 		case kSclectOperation:
-			m_isSceneEnd = true;
-			isToExplanation = true;
 			break;
 		case kSelectGameStart:
 			m_isSceneEnd = true;
-			isToSelect = true;
 			break;
 		case kSclectEnd:
 			DxLib_End();
@@ -146,7 +135,7 @@ void SceneTitle::Draw()
 	DrawString(kChirPosX, kChirPosY + kCharInterval * 2, "ゲームを終わる", 0xffffff);
 
 	SetFontSize(32);
-	DrawString(kChirPosX + 123, kChirPosY + kCharInterval * 3.6, "Aキーで決定", 0xffffff);
+	DrawString(kChirPosX, kChirPosY + kCharInterval * 3, "Aキーで決定", 0xffffff);
 
 	// 選択中の部分を四角で描画
 	DrawBox(m_selectPos.x, m_selectPos.y, m_selectPos.x + kSelectSizeX,

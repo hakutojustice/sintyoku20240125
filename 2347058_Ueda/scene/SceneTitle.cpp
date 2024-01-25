@@ -10,8 +10,8 @@ namespace
 	constexpr int kCharPosY = 700;
 
 	// 背景のサイズ
-	constexpr int kBgWidth = 1920;
-	constexpr int kBgHeight = 1080;
+	constexpr int kBgWidth = 1024;
+	constexpr int kBgHeight = 768;
 
 	// 選択カーソルの初期位置
 	constexpr int kInitSelectPosX = 960;
@@ -32,13 +32,10 @@ SceneTitle::SceneTitle():
 	m_isSceneOption(false),
 	m_fadeAlpha(80)
 {
-	m_logoHandle = LoadGraph("data/image/TitleLogo.png");
-	m_charHandle = LoadGraph("data/image/UI/titleChar.png");
+	m_logoHandle = LoadGraph("data/image/Title/TitleLogo.png");
+	m_charHandle = LoadGraph("data/image/Title/titleChar.png");
 	m_selectHandle = LoadGraph("data/image/UI/select.png");
-	m_bgHandle = LoadGraph("data/image/BackGround/Title/bg.png");
-	m_bg2Handle = LoadGraph("data/image/BackGround/Title/bg2.png");
-	m_bg3Handle = LoadGraph("data/image/BackGround/Title/bg3.png");
-	m_bg4Handle = LoadGraph("data/image/BackGround/Title/bg4.png");
+	m_bgHandle = LoadGraph("data/image/Title/bg.png");
 }
 
 SceneTitle::~SceneTitle()
@@ -47,9 +44,6 @@ SceneTitle::~SceneTitle()
 	DeleteGraph(m_selectHandle);
 	DeleteGraph(m_charHandle);
 	DeleteGraph(m_bgHandle);
-	DeleteGraph(m_bg2Handle);
-	DeleteGraph(m_bg3Handle);
-	DeleteGraph(m_bg4Handle);
 }
 
 void SceneTitle::Init()
@@ -58,7 +52,7 @@ void SceneTitle::Init()
 	m_isSceneOption = false;
 	m_select = kStart;
 	m_selectPos = { kInitSelectPosX,  kInitSelectPosY };
-	m_bgPos = { 0, 0 };
+	m_bgPos = { 0,0 };
 	m_bgMove = { kBgMove, 0 };
 }
 
@@ -128,11 +122,11 @@ void SceneTitle::Update()
 	}
 
 	// 背景の表示位置の更新
-	m_bgPos.x += m_bgMove.x;
+	m_bgPos += m_bgMove;
 	// 背景のループ
 	if (m_bgPos.x - kBgWidth * 0.5f <= 0.0f)
 	{
-		m_bgPos.x = Game::kScreenWidth;
+		m_bgPos.x = Game::kScreenWidth - kBgWidth;
 	}
 }
 
@@ -144,9 +138,8 @@ void SceneTitle::Draw()
 	SetDrawBlendMode(DX_BLENDMODE_NOBLEND, 0); // 不透明に戻す
 
 	// 背景表示
-	// TODO:背景が動くようにする
-	SetDrawBlendMode(DX_BLENDMODE_ALPHA, 100);
-	DrawGraph(0, 0, m_bgHandle, false);
+	SetDrawBlendMode(DX_BLENDMODE_ALPHA, 180);
+	DrawRectRotaGraph(m_bgPos.x, m_bgPos.y, 0, 0, kBgWidth, kBgHeight, 2.8f, 0.0f, m_bgHandle, true, false);
 	SetDrawBlendMode(DX_BLENDMODE_NOBLEND, 0); // 表示モードを元に戻す
 	
 	// ロゴ表示
