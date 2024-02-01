@@ -1,0 +1,63 @@
+{
+  "frames": {
+    "Gulp0.png": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 200,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 2,
+        "w": 200,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 204,
+        "h": 68
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Gulp1.png": {
+      "frame": {
+        "x": 2,
+        "y": 70,
+        "w": 200,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 2,
+        "w": 200,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 204,
+        "h": 68
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "Gulp.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 204,
+      "h": 136
+    },
+    "scale": 1
+  }
+}
