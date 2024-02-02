@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-01-27" view-index="0" gantt-divider-location="350" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-02-07" view-index="0" gantt-divider-location="350" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="名前" width="199" order="0"/>
@@ -37,15 +37,15 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="ベータ" color="#0099cc" meeting="false" start="2024-01-29" duration="13" complete="14" thirdDate="2024-01-29" thirdDate-constraint="0" expand="true">
-            <task id="3" name="SE,BGM追加" color="#ff3333" meeting="false" start="2024-01-29" duration="2" complete="40" thirdDate="2024-01-30" thirdDate-constraint="0" priority="4" expand="true">
+        <task id="0" name="ベータ" color="#0099cc" meeting="false" start="2024-01-29" duration="13" complete="27" thirdDate="2024-01-29" thirdDate-constraint="0" expand="true">
+            <task id="3" name="SE,BGM追加" color="#ff3333" meeting="false" start="2024-01-29" duration="2" complete="80" thirdDate="2024-01-30" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
                     <![CDATA[SEとBGMの追加
 素材を探せばほぼ完了
 ]]>
                 </notes>
             </task>
-            <task id="4" name="メニュー画面の機能追加" color="#ff3333" meeting="false" start="2024-01-30" duration="2" complete="36" thirdDate="2024-01-28" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="4" name="メニュー画面の機能追加" color="#ff3333" meeting="false" start="2024-01-30" duration="2" complete="63" thirdDate="2024-01-28" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
                     <![CDATA[メニュー画面の機能一覧
 オプション機能(音量設定のみ)
@@ -53,11 +53,11 @@
 クエストリタイア
 ]]>
                 </notes>
-                <task id="8" name="オプション機能" color="#ffff00" meeting="false" start="2024-01-30" duration="2" complete="20" thirdDate="2024-01-30" thirdDate-constraint="0" priority="4" expand="true"/>
+                <task id="8" name="オプション機能" color="#ffff00" meeting="false" start="2024-01-30" duration="2" complete="100" thirdDate="2024-01-30" thirdDate-constraint="0" priority="4" expand="true"/>
                 <task id="7" name="一時停止" color="#ffff00" meeting="false" start="2024-01-30" duration="2" complete="90" thirdDate="2024-01-30" thirdDate-constraint="0" priority="4" expand="true"/>
                 <task id="6" name="クエストリタイア" color="#ffff00" meeting="false" start="2024-01-30" duration="2" complete="0" thirdDate="2024-01-30" thirdDate-constraint="0" priority="4" expand="true"/>
             </task>
-            <task id="5" name="リザルト処理" color="#ff3333" meeting="false" start="2024-02-01" duration="4" complete="0" thirdDate="2024-01-26" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="5" name="リザルト処理" color="#ff3333" meeting="false" start="2024-02-01" duration="4" complete="10" thirdDate="2024-01-26" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
                     <![CDATA[リザルト画面を移さずメイン画面で行うことにする]]>
                 </notes>
