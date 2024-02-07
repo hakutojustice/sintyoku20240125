@@ -6,3 +6,9 @@
 
 Electric_Shine.mp3
 	->FLASH☆BEAT(DOVA-SYNDROME)
+
+kagura
+	->Kyatto(youtube)
+
+Player
+	->zukisuzuki BGM(youtube)
