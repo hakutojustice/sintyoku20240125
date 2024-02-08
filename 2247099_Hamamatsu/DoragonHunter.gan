@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="MonsterHunter" company="" webLink="http://" view-date="2023-12-08" view-index="0" gantt-divider-location="317" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+    <description>
+        <![CDATA[CAPCOMに就職する作品予定表]]>
+    </description>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="名前" width="167" order="0"/>
+        <field id="tpd4" name="開始日" width="66" order="1"/>
+        <field id="tpd5" name="終了日" width="68" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <timeline>
+            <![CDATA[52]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#000000 #ff0000 #ffff00 #666666 #33ffcc #cccccc #f4f4f4 #999999 #3333ff #00cc00]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="名前" width="210" order="0"/>
+        <field id="1" name="デフォルトの役割" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="67" name="制作全体" color="#000000" meeting="false" start="2023-09-25" duration="96" complete="73" thirdDate="2023-09-25" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="0" name="プロトタイプ" color="#ffcc00" meeting="false" start="2023-09-25" duration="35" complete="80" thirdDate="2023-10-13" thirdDate-constraint="0" priority="4" expand="false">
+                <task id="7" name="1仮のステージの設置" color="#ff0000" meeting="false" start="2023-09-25" duration="3" complete="100" thirdDate="2023-09-23" thirdDate-constraint="0" priority="4" expand="true"/>
+                <task id="1" name="プレイヤー" color="#666666" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2023-09-27" duration="33" complete="96" thirdDate="2023-10-13" thirdDate-constraint="0" priority="4" expand="true">
+                    <notes>
+                        <![CDATA[以下の処理は調節無し]]>
+                    </notes>
+                    <task id="16" name="1オブジェクトの設置" color="#ff0000" meeting="false" start="2023-09-27" duration="1" complete="100" thirdDate="2023-09-25" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[プレイヤーのオブジェクトを配置するだけ]]>
+                        </notes>
+                    </task>
+                    <task id="8" name="1当たり判定追加" color="#ff0000" meeting="false" start="2023-09-27" duration="1" complete="100" thirdDate="2023-09-21" thirdDate-constraint="0" priority="4" expand="true"/>
+                    <task id="2" name="6移動処理" color="#ff0000" meeting="false" start="2023-09-28" duration="7" complete="100" thirdDate="2023-09-24" thirdDate-constraint="0" priority="4" expand="true"/>
+                    <task id="10" name="3ダッシュ処理" color="#ffff00" meeting="false" start="2023-09-29" duration="3" complete="100" thirdDate="2023-09-27" thirdDate-constraint="0" expand="true"/>
+                    <task id="6" name="5回避処理" color="#ff0000" meeting="false" start="2023-10-02" duration="7" complete="100" thirdDate="2023-09-24" thirdDate-constraint="0" priority="4" expand="true"/>
+                    <task id="22" name="攻撃判定追加" color="#ff0000" meeting="false" start="2023-10-09" duration="5" complete="100" thirdDate="2023-09-20" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[攻撃力も何もない当たれば固定ダメージ]]>
+                        </notes>
+                    </task>
+                    <task id="9" name="回復するだけの処理" color="#cccccc" meeting="false" start="2023-10-10" duration="1" complete="100" thirdDate="2023-09-27" thirdDate-constraint="0" priority="3" expand="true"/>
+                    <task id="24" name="抜刀、納刀状態作成" color="#ff0000" meeting="false" start="2023-10-11" duration="2" complete="100" thirdDate="2023-09-11" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[状態遷移した時に出来るものと出来ないものを分ける]]>
+                        </notes>
+                    </task>
+                    <task id="20" name="アニメーション" color="#ff0000" meeting="false" start="2023-10-12" duration="18" complete="100" thirdDate="2023-09-26" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[吉田君と連携して行うため常にアニメーションを確認する
+アイドル
+移動
+ダッシュ
+回避
+薬ぐびぐび]]>
+                        </notes>
+                    </task>
+                    <task id="17" name="ステータス設定" color="#ff0000" meeting="false" start="2023-10-14" duration="2" complete="100" thirdDate="2023-09-23" thirdDate-constraint="0" priority="4" expand="true"/>
+                    <task id="26" name="ステータスとUIを紐づけ" color="#ff0000" meeting="false" start="2023-10-23" duration="5" complete="100" thirdDate="2023-09-11" thirdDate-constraint="0" priority="4" expand="true"/>
+                    <task id="36" name="※リファクタリング" color="#ffff00" meeting="false" start="2023-10-28" duration="2" complete="0" thirdDate="2023-09-23" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[マジックナンバーを直すのような、がっつりするわけではない]]>
+                        </notes>
+                    </task>
+                </task>
+                <task id="11" name="UI" color="#666666" meeting="false" start="2023-10-02" duration="9" complete="100" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
+                    <task id="15" name="設置" color="#cccccc" meeting="false" start="2023-10-02" duration="3" complete="100" thirdDate="2023-09-27" thirdDate-constraint="0" priority="3" expand="true">
+                        <notes>
+                            <![CDATA[UIの位置だけを決める]]>
+                        </notes>
+                    </task>
+                    <task id="13" name="体力" color="#ffff00" meeting="false" start="2023-10-06" duration="5" complete="100" thirdDate="2023-09-26" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[ゲージの増減を行うだけ]]>
+                        </notes>
+                    </task>
+                    <task id="14" name="スタミナ" color="#ffff00" meeting="false" start="2023-10-04" duration="7" complete="100" thirdDate="2023-09-26" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[プレイヤーの状態に合わせてゲージの増減を行うだけ]]>
+                        </notes>
+                    </task>
+                </task>
+                <task id="18" name="モンスター" color="#8cb6ce" meeting="false" start="2023-10-02" duration="28" complete="40" thirdDate="2023-09-23" thirdDate-constraint="0" expand="true">
+                    <task id="19" name="オブジェクトの設置" color="#cccccc" meeting="false" start="2023-10-02" duration="1" complete="100" thirdDate="2023-09-25" thirdDate-constraint="0" priority="3" expand="true">
+                        <notes>
+                            <![CDATA[モンスターのオブジェクトを設置するだけ]]>
+                        </notes>
+                    </task>
+                    <task id="21" name="当たり判定追加" color="#ffff00" meeting="false" start="2023-10-11" duration="1" complete="100" thirdDate="2023-09-28" thirdDate-constraint="0" expand="true"/>
+                    <task id="25" name="アニメーションを追加" color="#ff0000" meeting="false" start="2023-10-12" duration="18" complete="0" thirdDate="2023-09-11" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[吉田君と行うため常に確認する
+アイドル状態だけ]]>
+                        </notes>
+                    </task>
+                    <task id="23" name="簡易AI追加" color="#ff0000" meeting="false" start="2023-10-16" duration="10" complete="100" thirdDate="2023-09-20" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[プレイヤーのもとに移動し続けてたどり着いたら攻撃判定を生成]]>
+                        </notes>
+                    </task>
+                </task>
+            </task>
+            <task id="3" name="アルファ" color="#00cc00" meeting="false" start="2023-10-30" duration="32" complete="98" thirdDate="2023-09-25" thirdDate-constraint="0" priority="4" expand="true">
+                <task id="34" name="舞台となるステージの制作" color="#cccccc" meeting="false" start="2023-10-30" duration="7" complete="100" thirdDate="2023-10-30" thirdDate-constraint="0" priority="3" expand="true">
+                    <notes>
+                        <![CDATA[形だけでも完成させる]]>
+                    </notes>
+                </task>
+                <task id="42" name="仮シーン追加" color="#ffff00" meeting="false" start="2023-11-01" duration="3" complete="100" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[タイトル
+セレクト
+ゲームプレイ
+リザルト]]>
+                    </notes>
+                </task>
+                <task id="28" name="プレイヤー" color="#666666" meeting="false" start="2023-10-30" duration="32" complete="96" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[ステータスの値などをざっと調整する]]>
+                    </notes>
+                    <task id="39" name="モーションの確認" color="#ff0000" meeting="false" start="2023-10-30" duration="32" complete="100" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[吉田君と確認を取り合いながらするためずっと行う
+
+アイドルから抜刀への遷移
+抜刀アイドル
+抜刀アイドルから納刀への遷移
+太刀の攻撃モーション7種(10/27の段階で)
+抜刀回避
+抜刀回避右
+抜刀回避左
+※抜刀回避後ろ]]>
+                        </notes>
+                    </task>
+                    <task id="29" name="移動処理" color="#ff0000" meeting="false" start="2023-10-30" duration="2" complete="100" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true"/>
+                    <task id="30" name="ダッシュ処理" color="#ff0000" meeting="false" start="2023-10-30" duration="2" complete="100" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true"/>
+                    <task id="31" name="回避" color="#ff0000" meeting="false" start="2023-10-31" duration="2" complete="100" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true"/>
+                    <task id="32" name="ダメージを食らった時の処理追加" color="#ff0000" meeting="false" start="2023-11-01" duration="3" complete="100" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[ダメージを食らった時に後ろに飛ばされる処理を追加する]]>
+                        </notes>
+                    </task>
+                    <task id="33" name="回復" color="#ffff00" meeting="false" start="2023-11-02" duration="3" complete="100" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[モーションと合うように回復させるようにする]]>
+                        </notes>
+                    </task>
+                    <task id="35" name="太刀モーションや攻撃" color="#ff0000" meeting="false" start="2023-11-05" duration="26" complete="100" thirdDate="2023-10-17" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[太刀モーションの動きに合わせて攻撃の当たり判定を動かす
+錬気ゲージも入れる←無理かも]]>
+                        </notes>
+                    </task>
+                    <task id="46" name="UIの挙動調整、アイテムスライダーと回復などを紐づけ" color="#ff0000" meeting="false" start="2023-11-25" duration="6" complete="50" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[回復アイテムのみに絞る]]>
+                        </notes>
+                    </task>
+                    <task id="45" name="プレイヤーの操作の気持ちよさを調整" color="#ff0000" meeting="false" start="2023-11-19" duration="12" complete="100" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[モンハンをプレイしつつ気持ちよいプレイヤー操作に調整]]>
+                        </notes>
+                    </task>
+                </task>
+                <task id="40" name="モンスター" color="#666666" meeting="false" start="2023-10-30" duration="32" complete="100" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true">
+                    <task id="41" name="モーション確認" color="#ff0000" meeting="false" start="2023-10-30" duration="32" complete="100" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[吉田君と確認を行いながらするためずっとする]]>
+                        </notes>
+                    </task>
+                    <task id="43" name="モンスターのAI作成" color="#ff0000" meeting="false" start="2023-11-08" duration="23" complete="100" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[行動パターンは
+攻撃5種類
+怯み
+移動
+咆哮
+]]>
+                        </notes>
+                    </task>
+                </task>
+            </task>
+            <task id="4" name="ベータ" color="#3333ff" meeting="false" start="2023-12-01" duration="17" complete="36" thirdDate="2023-09-25" thirdDate-constraint="0" priority="4" expand="true">
+                <task id="48" name="バグ探し" color="#ffff00" meeting="false" start="2023-12-01" duration="17" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[機能を書き換えるたびに確認を行う]]>
+                    </notes>
+                </task>
+                <task id="66" name="難易度追加" color="#ff0000" meeting="false" start="2023-12-13" duration="2" complete="100" thirdDate="2023-11-27" thirdDate-constraint="0" priority="4" expand="true">
+                    <notes>
+                        <![CDATA[体力を変えるだけ]]>
+                    </notes>
+                </task>
+                <task id="65" name="他の人にテストプレイをしてもらう" color="#ff0000" meeting="false" start="2023-12-13" duration="5" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" priority="4" expand="true"/>
+                <task id="60" name="リファクタリング" color="#ff0000" meeting="false" start="2023-12-15" duration="3" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" priority="4" expand="true"/>
+                <task id="49" name="シーン" color="#666666" meeting="false" start="2023-12-01" duration="12" complete="55" thirdDate="2023-11-27" thirdDate-constraint="0" expand="true">
+                    <task id="50" name="タイトルシーン" color="#ff0000" meeting="false" start="2023-12-01" duration="1" complete="100" thirdDate="2023-11-27" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[動きをつけてタイトルも決める。]]>
+                        </notes>
+                    </task>
+                    <task id="51" name="セレクトシーン" color="#ff0000" meeting="false" start="2023-12-01" duration="3" complete="100" thirdDate="2023-11-27" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[大剣を制作出来たら作る]]>
+                        </notes>
+                    </task>
+                    <task id="52" name="リザルトシーン" color="#ff0000" meeting="false" start="2023-12-01" duration="3" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[クリアタイムとかをいれる]]>
+                        </notes>
+                    </task>
+                    <task id="59" name="BGMの追加" color="#ff0000" meeting="false" start="2023-12-11" duration="2" complete="50" thirdDate="2023-11-27" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[追加するBGMはタイトル、セレクト、メイン、リザルトの四曲]]>
+                        </notes>
+                    </task>
+                </task>
+                <task id="53" name="プレイヤー" color="#666666" meeting="false" start="2023-12-04" duration="7" complete="65" thirdDate="2023-11-27" thirdDate-constraint="0" priority="4" expand="true">
+                    <task id="54" name="レベルデザイン" color="#ff0000" meeting="false" start="2023-12-04" duration="7" complete="90" thirdDate="2023-11-16" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[ステータスやアニメーションの調整などを行う
+ステータスが偏ってはいけないのでモンスターと並行して行う
+移動とか回避とかの処理も見直す]]>
+                        </notes>
+                    </task>
+                    <task id="57" name="SEの追加" color="#ffff00" meeting="false" start="2023-12-04" duration="7" complete="40" thirdDate="2023-11-27" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[攻撃モーションに合わせる]]>
+                        </notes>
+                    </task>
+                </task>
+                <task id="55" name="モンスター" color="#666666" meeting="false" start="2023-12-04" duration="7" complete="50" thirdDate="2023-11-27" thirdDate-constraint="0" priority="4" expand="true">
+                    <task id="56" name="レベルデザイン" color="#ff0000" meeting="false" start="2023-12-04" duration="7" complete="50" thirdDate="2023-12-02" thirdDate-constraint="0" priority="4" expand="true">
+                        <notes>
+                            <![CDATA[ステータスやアニメーションの調整などを行う
+ステータスが偏ってはいけないのでハンターと並行して行う]]>
+                        </notes>
+                    </task>
+                    <task id="58" name="SEの追加" color="#ffff00" meeting="false" start="2023-12-04" duration="7" complete="50" thirdDate="2023-11-27" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[モンスターの挙動に合わせる]]>
+                        </notes>
+                    </task>
+                </task>
+            </task>
+            <task id="5" name="マスター" color="#999999" meeting="false" start="2023-12-18" duration="12" complete="0" thirdDate="2023-09-25" thirdDate-constraint="0" priority="4" expand="true">
+                <task id="62" name="バグ探し、除去" color="#ff0000" meeting="false" start="2023-12-18" duration="12" complete="0" thirdDate="2023-12-18" thirdDate-constraint="0" priority="4" expand="true"/>
+                <task id="64" name="コードのリファクタリング" color="#ff0000" meeting="false" start="2023-12-22" duration="8" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" priority="4" expand="true"/>
+                <task id="63" name="他の人にテストプレイをしてもらう" color="#ff0000" meeting="false" start="2023-12-18" duration="10" complete="0" thirdDate="2023-12-18" thirdDate-constraint="0" priority="4" expand="true">
+                    <notes>
+                        <![CDATA[プレイしてもらった人から助言をもらう]]>
+                    </notes>
+                </task>
+            </task>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
