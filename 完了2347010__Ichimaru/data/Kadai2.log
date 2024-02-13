@@ -1,0 +1,17 @@
+﻿  Enemy.cpp
+C:\Users\fko2347010\Desktop\引っ越し３\市丸慶樹\github\study\C++\Kadai2\game.h(1,1): warning C4828: オフセット 0x311 から始まる、現在のソースの文字セット (コードページ 932) では使用できない文字がファイルに含まれています。
+  game.cpp
+C:\Users\fko2347010\Desktop\引っ越し３\市丸慶樹\github\study\C++\Kadai2\game.h(1,1): warning C4828: オフセット 0x311 から始まる、現在のソースの文字セット (コードページ 932) では使用できない文字がファイルに含まれています。
+  Haikei.cpp
+C:\Users\fko2347010\Desktop\引っ越し３\市丸慶樹\github\study\C++\Kadai2\game.h(1,1): warning C4828: オフセット 0x311 から始まる、現在のソースの文字セット (コードページ 932) では使用できない文字がファイルに含まれています。
+  key.cpp
+C:\Users\fko2347010\Desktop\引っ越し３\市丸慶樹\github\study\C++\Kadai2\game.h(1,1): warning C4828: オフセット 0x311 から始まる、現在のソースの文字セット (コードページ 932) では使用できない文字がファイルに含まれています。
+  mainn.cpp
+C:\Users\fko2347010\Desktop\引っ越し３\市丸慶樹\github\study\C++\Kadai2\game.h(1,1): warning C4828: オフセット 0x311 から始まる、現在のソースの文字セット (コードページ 932) では使用できない文字がファイルに含まれています。
+  Player.cpp
+C:\Users\fko2347010\Desktop\引っ越し３\市丸慶樹\github\study\C++\Kadai2\game.h(1,1): warning C4828: オフセット 0x311 から始まる、現在のソースの文字セット (コードページ 932) では使用できない文字がファイルに含まれています。
+  コード生成しています。
+  Previous IPDB not found, fall back to full compilation.
+  All 29 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  Kadai2.vcxproj -> C:\Users\fko2347010\Desktop\引っ越し３\市丸慶樹\github\study\C++\Kadai2\x64\Release\Kadai2.exe
