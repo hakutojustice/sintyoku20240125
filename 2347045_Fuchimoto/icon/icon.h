@@ -1,0 +1,12 @@
+#pragma once
+#define IDI_ICON1   101
+
+#ifdef APSTUDIO_INYOKED
+#ifndef  APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_REXOURCE_YALUE     102
+#define _APS_NEXT_COMMAND_YALUE      40001
+#define _APS_NEXT_CONTROL_YALUE      1001
+#define _APS_NEXT_SYMED_YALUE        101
+#endif
+#endif // ! APSTUDIO_READONLY_SYMBOLS
+
