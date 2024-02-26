@@ -1,0 +1,6 @@
+ファイルのパス,ファイル名,拡張子
+data/model/,block,.mv1
+data/texture/block/,dark,.png
+data/texture/block/,light,.png
+data/texture/block/,darkBlack,.png
+data/texture/block/,lightBlack,.png
